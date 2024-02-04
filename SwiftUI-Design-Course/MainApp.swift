@@ -1,5 +1,5 @@
 //
-//  SwiftUI_Design_CourseApp.swift
+//  MainApp.swift
 //  SwiftUI-Design-Course
 //
 //  Created by Omer Cagri Sayir on 4.02.2024.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct SwiftUI_Design_CourseApp: App {
+struct MainApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShapesView()
         }
     }
 }
