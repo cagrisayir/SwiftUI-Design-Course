@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06427AAC2B7247BB00E5685F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06427AAB2B7247BB00E5685F /* GradientView.swift */; };
+		06427AAF2B72A41800E5685F /* TextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06427AAE2B72A41800E5685F /* TextFieldsView.swift */; };
 		068EA3BF2B6FF87800B157D2 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3BE2B6FF87800B157D2 /* MainApp.swift */; };
 		068EA3C12B6FF87800B157D2 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3C02B6FF87800B157D2 /* ShapesView.swift */; };
 		068EA3C32B6FF87A00B157D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068EA3C22B6FF87A00B157D2 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		06427AAB2B7247BB00E5685F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		06427AAE2B72A41800E5685F /* TextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsView.swift; sourceTree = "<group>"; };
 		068EA3BB2B6FF87800B157D2 /* SwiftUI-Design-Course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Design-Course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		068EA3BE2B6FF87800B157D2 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		068EA3C02B6FF87800B157D2 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 			path = Gradient;
 			sourceTree = "<group>";
 		};
+		06427AAD2B72A40900E5685F /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				06427AAE2B72A41800E5685F /* TextFieldsView.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
 		068EA3B22B6FF87800B157D2 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		068EA3BD2B6FF87800B157D2 /* SwiftUI-Design-Course */ = {
 			isa = PBXGroup;
 			children = (
+				06427AAD2B72A40900E5685F /* TextFields */,
 				06427AAA2B7247A600E5685F /* Gradient */,
 				068EA3BE2B6FF87800B157D2 /* MainApp.swift */,
 				068EA3CD2B6FFD2800B157D2 /* Paths */,
@@ -170,6 +181,7 @@
 				068EA3C12B6FF87800B157D2 /* ShapesView.swift in Sources */,
 				068EA3BF2B6FF87800B157D2 /* MainApp.swift in Sources */,
 				06427AAC2B7247BB00E5685F /* GradientView.swift in Sources */,
+				06427AAF2B72A41800E5685F /* TextFieldsView.swift in Sources */,
 				068EA3CF2B6FFD4200B157D2 /* PathsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
